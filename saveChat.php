@@ -11,4 +11,3 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     file_put_contents('chat.txt', $chatMessage, FILE_APPEND);
 }
 exit();
-?>

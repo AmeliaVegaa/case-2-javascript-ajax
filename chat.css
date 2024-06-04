@@ -1,0 +1,110 @@
+/* CSS untuk tampilan chat */
+#chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    display: none;
+    /* Initially hidden */
+    display: flex;
+    flex-direction: column;
+}
+
+#chat-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#chat-input-container {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+}
+
+.chat-message {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    /* Clear floats */
+}
+
+
+#chat-input {
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+#chat-input:focus {
+    outline: none;
+}
+
+#chat-send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70vh;
+}
+
+.png {
+    width: 100px;
+    height: auto;
+}
+
+.button {
+    margin: 10px;
+    margin-right: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    background-color: white;
+    border: 2px solid #2E3D71;
+    transition: all 0.5s ease-in-out;
+}
+
+.button:hover {
+    background-color: #2E3D71;
+    transition: all 0.5s ease-in-out;
+}
+
+#chat-body {
+    overflow-y: auto;
+    flex-grow: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-message {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    clear: both;
+    /* Clear floats */
+}
+
+.chat-message:nth-child(odd) {
+    background-color: #f9f9f9;
+    text-align: right;
+}
+
+.chat-message:nth-child(even) {
+    background-color: #e0f7fa;
+    text-align: left;
+}

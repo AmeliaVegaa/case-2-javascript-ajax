@@ -1,5 +1,2 @@
-Vega: Selamat pagi
-Amel: Iya, pagi juga
-Vega: Apa kabar?
-Amel: Kabar saya baik, kamu?
-Vega: Syukurlah, kabar saya baik.
+fara: fara
+cia: halo

@@ -8,4 +8,3 @@ foreach ($chatMessages as $message) {
         echo '<div class="chat-message">' . $message . '</div>';
     }
 }
-?>
